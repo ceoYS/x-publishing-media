@@ -1,0 +1,275 @@
+[
+  {
+    "number": 1,
+    "title": "저녁 자리에서 보여주는 실력 (FONDO)",
+    "topic": "FONDO · 음식 경험 디자인",
+    "path": "media/images/2026-11/01_fondo_preview.png",
+    "bytes": 882788,
+    "sha256": "0b16f6e604b659bafea992e0b0e4421427cdcd6a707e6b0d81899450c8df22b7",
+    "dimensions": [
+      1200,
+      1500
+    ],
+    "status": "PREVIEW_NOT_PRETENDARD_FINAL"
+  },
+  {
+    "number": 2,
+    "title": "매출이 늘어도 / 현금은 부족할 수 있다",
+    "topic": "김종필 · 안경 사업",
+    "path": "media/images/2026-11/02_cash_preview.png",
+    "bytes": 537619,
+    "sha256": "40e5d894b7263f3da139cabc583e3666c12aac116adc4530a16f798b7df12de0",
+    "dimensions": [
+      1200,
+      1500
+    ],
+    "status": "PREVIEW_NOT_PRETENDARD_FINAL"
+  },
+  {
+    "number": 3,
+    "title": "기록이 아니라 / 이야기로 돌아오는 앱",
+    "topic": "좀비런 · 오디오 운동",
+    "path": "media/images/2026-11/03_story_preview.png",
+    "bytes": 446348,
+    "sha256": "e0308c41d50742a41168e6217f52a557669036ca058ac159fedab98eca24e4d0",
+    "dimensions": [
+      1200,
+      1500
+    ],
+    "status": "PREVIEW_NOT_PRETENDARD_FINAL"
+  },
+  {
+    "number": 4,
+    "title": "AI가 쓴 문장과 / 내가 내릴 판단",
+    "topic": "AI와 저자성",
+    "path": "media/images/2026-11/04_proof_preview.png",
+    "bytes": 90987,
+    "sha256": "79ecd0baad0cc5b747b1e3f89f98d7705950b87cc9ed7478577c48517c539764",
+    "dimensions": [
+      1200,
+      1500
+    ],
+    "status": "PREVIEW_NOT_PRETENDARD_FINAL"
+  },
+  {
+    "number": 5,
+    "title": "더 만드는 능력만큼 / 덜 만드는 판단",
+    "topic": "산리오 · 상품 운영",
+    "path": "media/images/2026-11/05_sku_preview.png",
+    "bytes": 344285,
+    "sha256": "a25ba7460b5a9b99a08bbfd924fd2e8f528d2d6c8eb78e12eec64c636e2f0c42",
+    "dimensions": [
+      1200,
+      1500
+    ],
+    "status": "PREVIEW_NOT_PRETENDARD_FINAL"
+  },
+  {
+    "number": 6,
+    "title": "완성된 콘텐츠보다 / 따라 할 수 있는 콘텐츠",
+    "topic": "아소비시스템 · 팬 참여",
+    "path": "media/images/2026-11/06_participation_preview.png",
+    "bytes": 85672,
+    "sha256": "63d5eb796755778ad7c39e744f768323fe52258bb64cb868cfe9ff1abc674b60",
+    "dimensions": [
+      1200,
+      1500
+    ],
+    "status": "PREVIEW_NOT_PRETENDARD_FINAL"
+  },
+  {
+    "number": 7,
+    "title": "AI가 싸졌다면 / 누가 새 고객이 될까",
+    "topic": "캐시 우드 · 기술 비용",
+    "path": "media/images/2026-11/07_cost_preview.png",
+    "bytes": 91068,
+    "sha256": "cf6c678acbeed949219f670c8e93e50b40e312cf74c02bf05aa4a89c0411fa0e",
+    "dimensions": [
+      1200,
+      1500
+    ],
+    "status": "PREVIEW_NOT_PRETENDARD_FINAL"
+  },
+  {
+    "number": 8,
+    "title": "좋아하는 것을 / 다시 쓰는 데이터로",
+    "topic": "정다현 · 김밥 기록",
+    "path": "media/images/2026-11/08_record_preview.png",
+    "bytes": 469626,
+    "sha256": "eb766c3175551959d88294bbfe27606376c9e72a3dbdb8cf4fb8f3b5db2ebf2a",
+    "dimensions": [
+      1200,
+      1500
+    ],
+    "status": "PREVIEW_NOT_PRETENDARD_FINAL"
+  },
+  {
+    "number": 9,
+    "title": "도구를 판 뒤에 / 남는 문제까지",
+    "topic": "코너버리 · 포장 도구",
+    "path": "media/images/2026-11/09_packaging_preview.png",
+    "bytes": 73389,
+    "sha256": "b91b7a8a9ed289fcd11b1e3c901530e02bc0e64fe226f434e4bb338b8b9baa7c",
+    "dimensions": [
+      1200,
+      1500
+    ],
+    "status": "PREVIEW_NOT_PRETENDARD_FINAL"
+  },
+  {
+    "number": 10,
+    "title": "친절한 상담보다 / 멈출 수 있는 권한",
+    "topic": "사람의 마지막 직업",
+    "path": "media/images/2026-11/10_counsel_preview.png",
+    "bytes": 92200,
+    "sha256": "be1994d8b4b0993ef745403594cdb9960d6b80da7667f7671321d1d87b1cfdcc",
+    "dimensions": [
+      1200,
+      1500
+    ],
+    "status": "PREVIEW_NOT_PRETENDARD_FINAL"
+  },
+  {
+    "number": 11,
+    "title": "결과는 매번 달라도 / 과정은 반복할 수 있다",
+    "topic": "FONDO · 맞춤 프로젝트",
+    "path": "media/images/2026-11/11_workflow_preview.png",
+    "bytes": 95534,
+    "sha256": "4e095c0f2204e9879c5ceff6b57d6175dc6a530490f556c41c89dc16c51c3688",
+    "dimensions": [
+      1200,
+      1500
+    ],
+    "status": "PREVIEW_NOT_PRETENDARD_FINAL"
+  },
+  {
+    "number": 12,
+    "title": "매장보다 먼저 / 판단을 복제할 것",
+    "topic": "김종필 · 매장 확장",
+    "path": "media/images/2026-11/12_stores_preview.png",
+    "bytes": 74975,
+    "sha256": "c3a34cc3f0935316cc8ff1eb2fec1159e3cde0edda8b4c9d04534b434eda7027",
+    "dimensions": [
+      1200,
+      1500
+    ],
+    "status": "PREVIEW_NOT_PRETENDARD_FINAL"
+  },
+  {
+    "number": 13,
+    "title": "화면을 안 봐도 / 이어지는 경험",
+    "topic": "좀비런 · 오디오 UX",
+    "path": "media/images/2026-11/13_audio_preview.png",
+    "bytes": 83723,
+    "sha256": "915e995ef6ed60464d75685852d0d552db2b5b48af6115814efd448ef021de86",
+    "dimensions": [
+      1200,
+      1500
+    ],
+    "status": "PREVIEW_NOT_PRETENDARD_FINAL"
+  },
+  {
+    "number": 14,
+    "title": "빨리 쓰기보다 / 틀리기 전에 멈추기",
+    "topic": "AI 검수 · 제품 가설",
+    "path": "media/images/2026-11/14_evidence_preview.png",
+    "bytes": 90975,
+    "sha256": "f013adf81051bb25ae49c0ffede3998098645d2066702a5b6f190d03164dad58",
+    "dimensions": [
+      1200,
+      1500
+    ],
+    "status": "PREVIEW_NOT_PRETENDARD_FINAL"
+  },
+  {
+    "number": 15,
+    "title": "사람들은 상품으로 / 자기 취향을 말한다",
+    "topic": "산리오 · SNS 상품",
+    "path": "media/images/2026-11/15_sharing_preview.png",
+    "bytes": 336607,
+    "sha256": "8405f70feb8ceeaa46fb6115c284ee977d9e213c75472f8567eee5333620a711",
+    "dimensions": [
+      1200,
+      1500
+    ],
+    "status": "PREVIEW_NOT_PRETENDARD_FINAL"
+  },
+  {
+    "number": 16,
+    "title": "창작은 자유롭게 / 판매는 책임 있게",
+    "topic": "아소비시스템 · 창작 운영",
+    "path": "media/images/2026-11/16_roles_preview.png",
+    "bytes": 103238,
+    "sha256": "abb5443dcc650efa6b79eb809751fd67b1092e684fd57ae09ee13ac0cdbaf8f7",
+    "dimensions": [
+      1200,
+      1500
+    ],
+    "status": "PREVIEW_NOT_PRETENDARD_FINAL"
+  },
+  {
+    "number": 17,
+    "title": "리서치를 공개하면 / 반론도 자산이 된다",
+    "topic": "ARK · 공개 리서치",
+    "path": "media/images/2026-11/17_research_preview.png",
+    "bytes": 90096,
+    "sha256": "f82a61f584cc8ba0e57ae1963193ae5f7268d9af0f7a1502b12780d5f70c5eea",
+    "dimensions": [
+      1200,
+      1500
+    ],
+    "status": "PREVIEW_NOT_PRETENDARD_FINAL"
+  },
+  {
+    "number": 18,
+    "title": "지역의 맛을 / 다른 자리에서 팔 때",
+    "topic": "정다현 · 김밥 팝업",
+    "path": "media/images/2026-11/18_popup_preview.png",
+    "bytes": 513916,
+    "sha256": "36db32f7b2684d8044c2757fa12f1acdc5c880d8a5c05ae9b5062697bcd0dc5f",
+    "dimensions": [
+      1200,
+      1500
+    ],
+    "status": "PREVIEW_NOT_PRETENDARD_FINAL"
+  },
+  {
+    "number": 19,
+    "title": "처음부터 / 다 쓸 필요는 없다",
+    "topic": "코너버리 · 시제품",
+    "path": "media/images/2026-11/19_prototype_preview.png",
+    "bytes": 91517,
+    "sha256": "4855d02fcb4b3c5696f5c479bd2e3479d09a43bf27059978a8e467c76665a039",
+    "dimensions": [
+      1200,
+      1500
+    ],
+    "status": "PREVIEW_NOT_PRETENDARD_FINAL"
+  },
+  {
+    "number": 20,
+    "title": "사람에게 닿는 길을 / 누가 이용할 수 있나",
+    "topic": "사람의 마지막 직업",
+    "path": "media/images/2026-11/20_escalation_preview.png",
+    "bytes": 90945,
+    "sha256": "3b80fb67871281e4724dbc5f956e7687f6efad30aa3b92ea9a2bb65bd4591c78",
+    "dimensions": [
+      1200,
+      1500
+    ],
+    "status": "PREVIEW_NOT_PRETENDARD_FINAL"
+  },
+  {
+    "number": 21,
+    "title": "수제 상품은 / 기다림도 약속이다",
+    "topic": "김종필 · 수제 안경",
+    "path": "media/images/2026-11/21_queue_preview.png",
+    "bytes": 398115,
+    "sha256": "c71feb2f419120299cb5d02bcdb126fb1fac002aed5d4a3362cabe80ff01dd50",
+    "dimensions": [
+      1200,
+      1500
+    ],
+    "status": "PREVIEW_NOT_PRETENDARD_FINAL"
+  }
+]
