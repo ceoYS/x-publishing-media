@@ -52,7 +52,7 @@ def note(d,s,a):txt(d,s,600,1079,26,a,True,True)
 def column(d,x,y,w,h,title,body,a,fill):
     box(d,(x,y,x+w,y+h),fill,26)
     txt(d,title,x+26,y+30,31,a,True)
-    paragraph(d,body,x+26,y+99,w-52,h-128,28,23,"#323943")
+    if body: paragraph(d,body,x+26,y+99,w-52,h-128,28,23,"#323943")
 def shop(d,x,y,a):
     box(d,(x-102,y-12,x+102,y+138),"#FFFFFF",15,outline=a,width=4)
     d.polygon([(x-118,y),(x-83,y-67),(x+83,y-67),(x+118,y)],fill=tint(a,.5))
@@ -126,7 +126,7 @@ def diagram(d,row):
         for x,title,old in [(324,"표준적인 매물",False),(864,"개성 있는 공간",True)]:
             d.polygon([(x-145,734),(x,618),(x+145,734)],fill="#9BB0B0" if not old else "#A48871")
             box(d,(x-110,735,x+110,897),"#FBF9F0",7,outline=a,width=3)
-            for dx in [-60,27]:box(d,(x+dx,764,x+dx+49,819),6,"#D9DFDE" if not old else "#DDC9A3")
+            for dx in [-60,27]:box(d,(x+dx,764,x+dx+49,819),"#D9DFDE" if not old else "#DDC9A3",6)
             txt(d,title,x,944,29,a,True,True)
         note(d,"단점도 솔직히 보여줘야 맞는 고객이 선택한다",a)
     elif no==17:
