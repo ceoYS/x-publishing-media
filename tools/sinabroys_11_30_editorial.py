@@ -240,8 +240,8 @@ def diagram(d,row):
         box(d,(629,516,1114,1030),"#E7ECE4",32)
         # chairs
         for x in [314,872]:
-            box(d,(x-97,731,x+97,790),13,tint(a,.56),outline=a,width=4)
-            box(d,(x-102,627,x-64,740),14,tint(a,.68),outline=a,width=4)
+            box(d,(x-97,731,x+97,790),tint(a,.56),13,outline=a,width=4)
+            box(d,(x-102,627,x-64,740),tint(a,.68),14,outline=a,width=4)
             ln(d,[(x-72,790),(x-96,922)],a,7)
             ln(d,[(x+73,790),(x+101,922)],a,7)
         txt(d,"첫인상",317,958,32,a,True,True)
