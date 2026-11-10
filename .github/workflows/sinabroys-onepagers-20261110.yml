@@ -1,0 +1,41 @@
+name: Generate SinaBroys onepagers (30 PNG)
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'media/longblack/20261110_batch30/posts.json'
+      - 'media/longblack/20261110_batch30/generate_onepagers.py'
+      - '.github/workflows/sinabroys-onepagers-20261110.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - name: Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install Pillow and Korean fonts
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y fonts-noto-cjk
+          python -m pip install --disable-pip-version-check pillow
+      - name: Render exactly 30 PNGs and QA sheet
+        run: python media/longblack/20261110_batch30/generate_onepagers.py
+      - name: Commit generated PNGs
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add media/longblack/20261110_batch30/images
+          if git diff --cached --quiet; then
+            echo "No generated PNG changes"
+          else
+            git commit -m "media: render 30 SinaBroys Longblack onepagers"
+            git push origin HEAD:main
+          fi
