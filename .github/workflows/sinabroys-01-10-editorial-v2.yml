@@ -1,0 +1,79 @@
+name: Replace SinaBroys 01-10 images with V2 editorial designs
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'tools/sinabroys_01_10_v2_editorial.py'
+      - '.github/workflows/sinabroys-01-10-editorial-v2.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: sinabroys-editorial-v2-01-10
+  cancel-in-progress: false
+jobs:
+  redesign:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout existing images
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - name: Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install build-time Pillow and Korean fonts
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y fonts-noto-cjk
+          python -m pip install --disable-pip-version-check pillow
+      - name: Preserve original 01-10 PNGs
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p media/images/sinabroys/20261110_archive_original_01_10
+          shopt -s nullglob
+          files=(media/images/sinabroys/20261110/0[1-9]_*.png media/images/sinabroys/20261110/10_*.png)
+          test "${#files[@]}" -eq 10
+          for path in "${files[@]}"; do
+            name="${path##*/}"
+            archive="media/images/sinabroys/20261110_archive_original_01_10/$name"
+            if [ ! -f "$archive" ]; then cp "$path" "$archive"; fi
+          done
+      - name: Render ten 1200x1500 PNGs
+        run: python tools/sinabroys_01_10_v2_editorial.py
+      - name: Validate filenames and images
+        shell: bash
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          import json,hashlib
+          from PIL import Image
+          from pathlib import Path
+          base=Path("media/images/sinabroys/20261110")
+          manifest=json.loads((base/"manifest_01_10_v2.json").read_text())
+          assert len(manifest)==10
+          for i,it in enumerate(manifest,1):
+              assert it["id"]==f"{i:02d}"
+              p=base/it["file"]
+              with Image.open(p) as im:
+                  assert im.format=="PNG" and im.size==(1200,1500)
+                  im.verify()
+              assert hashlib.sha256(p.read_bytes()).hexdigest()==it["sha256"]
+          print("[VERIFIED] 10/10 PNGs, names, dimensions and SHA256")
+          PY
+      - name: Commit image-only replacement and original backups
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add media/images/sinabroys/20261110 media/images/sinabroys/20261110_archive_original_01_10
+          git diff --cached --stat
+          if git diff --cached --quiet; then
+            echo "No changes"
+          else
+            git commit -m "media: replace SinaBroys 01-10 with editorial visual V2"
+            git push origin HEAD:main
+          fi
