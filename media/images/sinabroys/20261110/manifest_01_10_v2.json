@@ -1,0 +1,72 @@
+[
+  {
+    "id": "01",
+    "file": "01_HARMAY.png",
+    "sha256": "b33a96dd78b93b7ef79d25e07386e9e96c971f1efef07c63f5096083b0f78b5c",
+    "size": 69334,
+    "note": "1773"
+  },
+  {
+    "id": "02",
+    "file": "02_Dominos.png",
+    "sha256": "41e96b3183ce77fdc415069556b4210df18b91e33a07d279b6496f0a176b7e4a",
+    "size": 71278,
+    "note": "1767"
+  },
+  {
+    "id": "03",
+    "file": "03_UrbanOutfitters.png",
+    "sha256": "96ac57b64edc2b83bc00e07d31d56236ba8fa69786140694af511bdc1a63a8ae",
+    "size": 78297,
+    "note": "1838"
+  },
+  {
+    "id": "04",
+    "file": "04_Eventbrite.png",
+    "sha256": "91a8cb45ff1b709d289167184a72cc3533030d670c46141beca5e06fcc69cf3d",
+    "size": 71062,
+    "note": "1835"
+  },
+  {
+    "id": "05",
+    "file": "05_Marna.png",
+    "sha256": "81bdc9265354d8473bf1c46a4badcd6bc033cf61b576af3e94431ba7181c2b41",
+    "size": 78090,
+    "note": "1833"
+  },
+  {
+    "id": "06",
+    "file": "06_CryCheeseBurger.png",
+    "sha256": "5d818e548565b2d8348e8bee38d62c1890f08e4a9470a6a6f0087b210bf49d0c",
+    "size": 79454,
+    "note": "1831"
+  },
+  {
+    "id": "07",
+    "file": "07_MunhakDongne.png",
+    "sha256": "bc9ec9a1b026a2e3fbd55107636c7455c69884ccbf2441b6b08ec5a52d284819",
+    "size": 70789,
+    "note": "1832"
+  },
+  {
+    "id": "08",
+    "file": "08_Dears.png",
+    "sha256": "f40ac436ac7d024e439b15dc6ff5f37bbed7991ec7b0d9ac1fc7099c537019bb",
+    "size": 73052,
+    "note": "1828"
+  },
+  {
+    "id": "09",
+    "file": "09_ConcinoConcrete.png",
+    "sha256": "f3467920ba33d9f83cc717fdbd442f8a58261bbcb220f07dde1284c6eb73120e",
+    "size": 67654,
+    "note": "1827"
+  },
+  {
+    "id": "10",
+    "file": "10_Crayola.png",
+    "sha256": "e6ed8cfd1f2a84df78d6a853ea50991ccade27920edd05fa18151fdfbb6276a3",
+    "size": 70775,
+    "note": "1844"
+  }
+]
