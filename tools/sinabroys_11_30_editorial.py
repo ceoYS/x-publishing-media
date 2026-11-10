@@ -214,7 +214,7 @@ def diagram(d,row):
         flow(d,["설명 듣기","직접 실험","며칠 뒤 기억"],[236,601,964],693,a)
         # test tube
         for x in [483,564,644,721]:
-            box(d,(x,911,x+31,995),11,tint(a,.7),outline=a,width=3)
+            box(d,(x,911,x+31,995),tint(a,.7),11,outline=a,width=3)
             circ(d,x+15,976,9,a)
         note(d,"재미는 입구이고 이해는 남겨야 할 결과물",a)
     elif no==26:
